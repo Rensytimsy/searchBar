@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.list{
+border: 1px solid grey;
+padding: 10px;
+text-align: center;
+}
+.name{
+    border: 1px solid grey;
+    margin: 5px 0;
+    padding: 10px;
+    background-color: rgb(28, 97, 129);
+    color: #fff;
+    font-size: 18px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    background-color: gray;
+}
+input[type="text"]{
+    height: 6vh;
+    width: 80%;
+    display: flex;
+    margin: 5px auto;
+}
+::placeholder{
+    font-size: 18px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.time{
+    border: 1px solid grey;
+    padding: 10px;
+}
